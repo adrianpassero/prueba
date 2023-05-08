@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body_index{
+    background-color: #000000;
+    color: aliceblue;
+}
+
+
+/* =========== header de pag index===========*/
+
+.imag_principal{
+    height: 100vh;
+    background-image: url(./img/Imagen_principal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+.links_navegador_index{
+    text-align: center;
+    list-style-type: none;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+li{
+    display: inline;
+    margin-right: 7%;
+}
+
+h1{
+    color: #f0f8ff;
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-align: center;
+    font-size: 400%;
+    padding: 1rem;
+}
+a{
+    color: #f0f8ff;
+    text-decoration: none;
+    background-color: rgb(129, 185, 185);
+    border-radius: 5px;
+
+}
+
+.imagen_index{
+    width: 92%;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+/* ======== footer ======= */
+
+
+.logo_redes_sociales{
+    padding: 0.1rem;
+    margin-left: 95%;
+    max-width:  2rem;
+    max-height: 2rem;
+}
+
+.email{
+    padding: 2rem;
+}
+
+
+/* ========= html carta resto ======== */
+
+.titulo_negro h1{
+    color: #000000;
+}
+.links_navegador_general a{
+    color: #000000;
+}
+.links_navegador_general{
+    text-align: center;
+    list-style-type: none;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.carta_resto header{
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.carta{
+    width: 18rem;
+    background-color: rgb(108, 104, 104);
+    border-radius: 20px 0 ;
+}
+
+.carta img{
+    width: 100%;
+    padding: 10px;
+}
+
+.carta p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.carta> div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+/* ====== footer =====*/
+
+
+.pie_carta_resto{
+    background-color: #000000;
+}
+.suscribite_carta_resto{
+    color: #f0f8ff;
+}
+
+
+
+/* ======= main pagina novedades =========*/
+
+
+.videos{
+    width: 10rem;
+    padding: 2rem;
+
+}
